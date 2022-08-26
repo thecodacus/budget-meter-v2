@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="logo"></div>
+  <div class="filler"></div>
+  <div class="addBtn"></div>
+  <div class="avatar" *ngIf="user">
+    <span> Hi, {{ user.displayName || user.email }} </span>
+    <div class="image">
+      <img width="28px" height="28px" [attr.src]="user.profileUrl" alt="" />
+    </div>
+  </div>
+</div>

@@ -1,1 +1,11 @@
-<router-outlet></router-outlet>
+<div class="container">
+  <nav>
+    <app-navbar [user]="user"></app-navbar>
+  </nav>
+  <aside>
+    <app-sidebar></app-sidebar>
+  </aside>
+  <main class="main">
+    <router-outlet></router-outlet>
+  </main>
+</div>

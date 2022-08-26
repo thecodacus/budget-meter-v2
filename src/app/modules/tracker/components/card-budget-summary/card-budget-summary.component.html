@@ -1,0 +1,59 @@
+<app-card-blank>
+  <div class="container">
+    <div class="balance">
+      <div class="header">Balance</div>
+      <div class="value">₹280000</div>
+      <div class="meta">
+        <div class="income">
+          <div class="title">
+            <div class="indicator"></div>
+            Income
+          </div>
+          <div class="value">₹80000</div>
+        </div>
+        <div class="sep"></div>
+        <div class="expense">
+          <div class="title">
+            <div class="indicator"></div>
+            Expanse
+          </div>
+          <div class="value">₹23000</div>
+        </div>
+      </div>
+    </div>
+    <div class="sep"></div>
+    <div class="budget">
+      <div class="header">Budget</div>
+      <div class="body">
+        <div class="visual">
+          <div class="chart-background">
+            <canvas #chartbackground></canvas>
+          </div>
+          <div class="chart">
+            <canvas #chart></canvas>
+          </div>
+          <div class="value">
+            <span>{{ (spent / budget) * 100 }}%</span>
+            <span>Spent</span>
+          </div>
+        </div>
+        <div class="meta">
+          <div class="income">
+            <div class="title">
+              <div class="indicator"></div>
+              Safe To Spend
+            </div>
+            <div class="value">₹12000</div>
+          </div>
+          <div class="expense">
+            <div class="title">
+              <div class="indicator"></div>
+              Spent This Month
+            </div>
+            <div class="value">₹23000</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</app-card-blank>

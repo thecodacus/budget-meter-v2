@@ -1,0 +1,19 @@
+.container{
+    width: 13.8rem;
+    height: 100%;
+    /* primary-gradient-top-down */
+    background: linear-gradient(176.94deg, #DE536C 11.65%, #E86565 96.55%);
+    border-radius: 2.25rem;
+    .menuItem{
+        
+    }
+    
+}
+@media only screen and (max-width: 1090px) {
+    .container{
+        width: 4rem;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 750px) {
+}

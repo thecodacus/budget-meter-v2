@@ -1,0 +1,18 @@
+<app-card>
+  <app-card-header>
+    <div class="title">{{ title }}</div>
+  </app-card-header>
+  <app-card-body>
+    <div class="body">
+      <div class="value">{{ value }}</div>
+      <div class="icon" [attr.style]="'background-color: ' + color">
+        <i [class]="icon"></i>
+      </div>
+    </div>
+  </app-card-body>
+  <app-card-footer>
+    <div class="footer">
+      {{ meta }}
+    </div>
+  </app-card-footer>
+</app-card>

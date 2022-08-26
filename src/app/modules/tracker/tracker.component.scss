@@ -1,0 +1,30 @@
+.container{
+    display: grid;
+    min-height: calc(100vh - 2rem);
+    // padding: 1rem;
+    grid-template-areas: 
+            "side nav"
+            "side main";
+
+    grid-template-rows: auto 1fr;
+    grid-template-columns: auto 1fr;
+
+    background-color: white;
+
+    border-radius: 2.25rem;
+
+    
+    nav{
+        grid-area: nav;
+        z-index: 5;
+    }
+    aside{
+        grid-area: side;
+        z-index: 10;
+    }
+    main{
+        grid-area: main;
+        padding: 1rem;
+        padding-right: 4rem;
+    }
+}

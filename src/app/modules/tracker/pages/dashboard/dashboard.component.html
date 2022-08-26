@@ -1,1 +1,17 @@
-<p>dashboard works!</p>
+<div class="container">
+  <div class="top-cards">
+    <app-card-value
+      *ngFor="let item of data"
+      [title]="item.title"
+      [value]="item.value"
+      [icon]="item.icon"
+      [meta]="item.meta"
+      [color]="item.color"
+    ></app-card-value>
+  </div>
+  <div class="sub-container">
+    <div class="holder" style="width: fit-content">
+      <app-card-budget-summary></app-card-budget-summary>
+    </div>
+  </div>
+</div>

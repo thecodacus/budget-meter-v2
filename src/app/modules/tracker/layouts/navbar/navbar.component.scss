@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    padding: 0 4rem;
+    margin-top: 1.75rem;
+    font-weight: 500;
+    .filler{
+        flex: 1;
+    }
+    .avatar{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        .image{
+            overflow: hidden;
+            border-radius: 50%;
+            width: 28px;
+            height: 28px;
+        }
+    }
+
+}

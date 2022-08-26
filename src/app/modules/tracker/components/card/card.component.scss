@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    .header{
+        min-height: 1.9rem;
+    }
+    .body{
+        flex: 1;
+    }
+    .footer{
+        // display: flex;
+        // align-items: center;
+        position: relative;
+        margin-top: 1rem;
+        padding-top: .5rem;
+        &::before{
+            content: " ";
+            position: absolute;
+            top: 0;
+            right: -1.875rem;
+            left: -1.875rem;
+            border-top:  rgba(227, 93, 105, 0.28);
+            border-top-style: solid;
+            border-width: 1px;
+        }
+    }
+}

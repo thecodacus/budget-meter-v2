@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TrackerComponent } from './tracker.component';
 import { RouterModule, Routes } from '@angular/router';
+import { LayoutsModule } from './layouts/layouts.module';
 
 const routes: Routes = [
   {
@@ -22,6 +23,7 @@ const routes: Routes = [
   ],
   imports: [
     CommonModule,
+    LayoutsModule,
     RouterModule.forChild(routes)
   ]
 })

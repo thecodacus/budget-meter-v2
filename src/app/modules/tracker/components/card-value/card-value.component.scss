@@ -1,0 +1,46 @@
+.title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #737070;
+}
+.body{
+    position: relative;
+    display: flex;
+    min-width: 12rem;
+    .value{
+        flex: 1;
+        font-family: 'Roboto-Bold';
+        font-size: 32px;
+        font-weight: bold;
+    }
+    .icon{
+        position: absolute;
+        right: 0;
+        top: -1.9rem;
+        width: 2.25rem;
+        height: 2.25rem;
+        background-color: #6AB2DA;
+        border-radius: 50%;
+
+        /* center icon*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3rem;
+        color: white;
+    }
+}
+.footer{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #737070;
+    margin-top: 0.5rem;
+}
